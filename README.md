@@ -73,7 +73,7 @@ xattr -dr com.apple.quarantine /Applications/Docket.app
 open /Applications/Docket.app
 ```
 
-Or [download Docket.zip](https://github.com/BerniWittmann/docket/releases/latest/download/Docket.zip) in the browser, unzip it and move **Docket.app** to `/Applications`. Every change on `main` that passes the tests is published as a [release](https://github.com/BerniWittmann/docket/releases). To update, run the same commands again.
+Or [download Docket.zip](https://github.com/BerniWittmann/docket/releases/latest/download/Docket.zip) in the browser, unzip it and move **Docket.app** to `/Applications`. Every new feature or fix on `main` that passes the tests is published as a [release](https://github.com/BerniWittmann/docket/releases). To update, run the same commands again.
 
 > [!IMPORTANT]
 > Docket is ad-hoc signed, not notarized by Apple, so macOS blocks the first launch of a downloaded copy. The `xattr` line above clears that flag. Without it, you can open the app anyway from System Settings → Privacy & Security → **Open Anyway**.
@@ -204,4 +204,4 @@ The project has two parts:
 
 Scenarios the recordings lack, such as a PR that is ready to merge or a merged PR on an open ticket, are derived in the tests from a recorded PR or ticket.
 
-Every push to `main` and every pull request is built and tested on macOS by [GitHub Actions](.github/workflows/build.yml). Each run has the built `Docket.app` attached. Pushes to `main` that change code also publish a release, versioned `0.1.<run number>`.
+Every push to `main` and every pull request is built and tested on macOS by [GitHub Actions](.github/workflows/build.yml). Each run has the built `Docket.app` attached. Pushes to `main` publish a release with a [semantic version](https://semver.org) worked out from the [Conventional Commits](https://www.conventionalcommits.org) since the last release (`scripts/next-version.sh`): `feat` bumps the minor version, `fix` and `perf` bump the patch version, and `!` or `BREAKING CHANGE` bumps the major version. Other commit types don't create a release.
