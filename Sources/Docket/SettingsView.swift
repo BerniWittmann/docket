@@ -199,7 +199,7 @@ struct GeneralSettings: View {
                 DatePicker("End", selection: time(\.end), displayedComponents: .hourAndMinute)
             }
             Section {
-                Toggle("Launch at login", isOn: Binding(get: { engine.settings.launchAtLogin }, set: setLaunchAtLogin))
+                Toggle("Launch at login", isOn: Binding(get: { engine.settings.launchAtLogin }, set: { setLaunchAtLogin($0) }))
                 if let loginError { Text(loginError).foregroundStyle(.red).font(.caption) }
             }
         }

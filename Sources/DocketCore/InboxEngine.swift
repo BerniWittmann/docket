@@ -400,7 +400,7 @@ public final class InboxEngine {
     /// Points the Orca harness at the configured CLI, falling back to the bundled one.
     private func applyOrcaPath() {
         guard var orca = harness as? OrcaHarness else { return }
-        orca.orcaPath = OrcaHarness.locate(configured: settings.orcaPath)
+        orca.orcaPath = OrcaHarness.locate(configured: settings.orcaPath) ?? orca.orcaPath
         harness = orca
     }
 }

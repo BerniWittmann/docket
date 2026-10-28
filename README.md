@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/BerniWittmann/docket/actions/workflows/build.yml"><img src="https://github.com/BerniWittmann/docket/actions/workflows/build.yml/badge.svg" alt="Build"></a>
   <img src="https://img.shields.io/badge/macOS-15%2B-000?logo=apple" alt="macOS 15+">
   <img src="https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white" alt="Swift 6">
   <img src="https://img.shields.io/badge/UI-SwiftUI-0A84FF" alt="SwiftUI">
@@ -178,3 +179,5 @@ The project has two parts:
 - `orca-ps*.json`, `orca-repos.json`: `orca worktree ps --json`, `orca repo list --json`
 
 Scenarios the recordings lack, such as a PR that is ready to merge or a merged PR on an open ticket, are derived in the tests from a recorded PR or ticket.
+
+Every push to `main` and every pull request is built and tested on macOS by [GitHub Actions](.github/workflows/build.yml). The built `Docket.app` is attached to each run as an artifact.
