@@ -50,20 +50,38 @@ Two themes, **Nord** and **n8n**, switchable from View → Theme:
 
 ## Install
 
-Docket is built from source. It takes about a minute.
+<p align="center">
+  <a href="https://github.com/BerniWittmann/docket/releases/latest/download/Docket.zip"><img src="https://img.shields.io/github/v/release/BerniWittmann/docket?label=Download%20Docket&style=for-the-badge&logo=apple&color=88C0D0" alt="Download the latest Docket"></a>
+</p>
 
 ### 1. Prerequisites
 
 | What | Why | How |
 |---|---|---|
 | **macOS 15** or later | | |
-| **Xcode** | Swift 6 toolchain | Install from the App Store, then run `sudo xcodebuild -license accept` and `xcodebuild -runFirstLaunch` |
 | **GitHub CLI** | Reviews and PRs | `brew install gh`, then `gh auth login` |
 | **Orca** *(recommended)* | Agent workspaces, Start work | Install [Orca](https://github.com/stablyai/orca) and add the repos you work in |
 | Linear API key *(optional)* | Tickets | Linear → Settings → Security & access → Personal API keys |
 | TickTick API token *(optional)* | To-dos and task sync | TickTick web → Settings → Account → API Token |
 
-### 2. Build and install
+### 2. Download
+
+```sh
+curl -fsSL -o /tmp/Docket.zip https://github.com/BerniWittmann/docket/releases/latest/download/Docket.zip
+ditto -x -k /tmp/Docket.zip /Applications/
+xattr -dr com.apple.quarantine /Applications/Docket.app
+open /Applications/Docket.app
+```
+
+Or [download Docket.zip](https://github.com/BerniWittmann/docket/releases/latest/download/Docket.zip) in the browser, unzip it and move **Docket.app** to `/Applications`. Every change on `main` that passes the tests is published as a [release](https://github.com/BerniWittmann/docket/releases). To update, run the same commands again.
+
+> [!IMPORTANT]
+> Docket is ad-hoc signed, not notarized by Apple, so macOS blocks the first launch of a downloaded copy. The `xattr` line above clears that flag. Without it, you can open the app anyway from System Settings → Privacy & Security → **Open Anyway**.
+
+<details>
+<summary><b>Or build it from source</b></summary>
+
+You need **Xcode** too: install it from the App Store, then run `sudo xcodebuild -license accept` and `xcodebuild -runFirstLaunch`.
 
 ```sh
 git clone https://github.com/BerniWittmann/docket.git
@@ -73,6 +91,10 @@ mv Docket.app /Applications/
 open /Applications/Docket.app
 ```
 
+To update: `git pull && scripts/bundle.sh && rm -rf /Applications/Docket.app && mv Docket.app /Applications/`
+
+</details>
+
 ### 3. First launch
 
 The first launch walks you through **GitHub → Linear → TickTick → Orca → notifications**. You can skip any step and connect it later in Settings (<kbd>⌘</kbd><kbd>,</kbd>).
@@ -80,21 +102,12 @@ The first launch walks you through **GitHub → Linear → TickTick → Orca →
 Then open **Settings → Sources** and set the repos and orgs to watch, such as `my-org/*` or `owner/repo`.
 
 > [!NOTE]
-> **Keychain prompts after updating.** `bundle.sh` signs ad hoc, and macOS ties Keychain grants to the signature. After each rebuild, macOS asks again for access to the Linear key and TickTick token, so choose **Always Allow**. To avoid the prompts, create a code-signing certificate in Keychain Access (Certificate Assistant → Create a Certificate, type *Code Signing*) and build with:
-> ```sh
-> DOCKET_SIGN_IDENTITY="<certificate name>" scripts/bundle.sh
-> ```
-
-### Updating
-
-```sh
-cd docket && git pull && scripts/bundle.sh && rm -rf /Applications/Docket.app && mv Docket.app /Applications/
-```
+> **Keychain prompts after updating.** Each new build has a new ad-hoc signature, so after an update macOS asks again for access to the Linear key and the TickTick token. Choose **Always Allow**. When you build from source, you can avoid this: create a code-signing certificate in Keychain Access (Certificate Assistant → Create a Certificate, type *Code Signing*) and build with `DOCKET_SIGN_IDENTITY="<certificate name>" scripts/bundle.sh`.
 
 ### Try it without accounts
 
 ```sh
-open Docket.app --args --demo
+open /Applications/Docket.app --args --demo
 ```
 
 Demo mode fills Docket with made-up items and doesn't touch GitHub, Linear, TickTick or Orca.
@@ -155,6 +168,17 @@ GitHub, Linear and TickTick are polled every 2 minutes, and Orca every 10 second
 
 State and settings live in `~/Library/Application Support/Docket/`.
 
+## Where this is going
+
+Docket started as my own daily driver, so today it is tied to my setup: [Orca](https://github.com/stablyai/orca) runs the agents and TickTick holds the to-dos. I'd like to make it more flexible, so it fits your setup too:
+
+- **Other agent harnesses.** Orca sits behind a small `Harness` protocol, so other tools could plug in: plain git worktrees with Claude Code or Codex in a terminal, Conductor, Cursor, or anything else with a CLI.
+- **Other to-do apps.** Things, Todoist, Apple Reminders or Linear itself instead of TickTick.
+- **Other sources.** GitHub Enterprise, GitLab, Jira, Slack mentions.
+- **Your own rules.** Choose what counts as "needs me", and how items are ranked and grouped.
+
+**Got an idea, or a setup you'd like Docket to support?** Please reach out, I'd love to hear it. [Open an issue](https://github.com/BerniWittmann/docket/issues/new) or message me on [GitHub](https://github.com/BerniWittmann). Pull requests are welcome too.
+
 ## Development
 
 ```sh
@@ -180,4 +204,4 @@ The project has two parts:
 
 Scenarios the recordings lack, such as a PR that is ready to merge or a merged PR on an open ticket, are derived in the tests from a recorded PR or ticket.
 
-Every push to `main` and every pull request is built and tested on macOS by [GitHub Actions](.github/workflows/build.yml). The built `Docket.app` is attached to each run as an artifact.
+Every push to `main` and every pull request is built and tested on macOS by [GitHub Actions](.github/workflows/build.yml). Each run has the built `Docket.app` attached. Pushes to `main` that change code also publish a release, versioned `0.1.<run number>`.
