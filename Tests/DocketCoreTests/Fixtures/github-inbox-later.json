@@ -1,0 +1,6432 @@
+{
+ "data": {
+  "viewer": {
+   "login": "BerniWittmann"
+  },
+  "authored": {
+   "nodes": [
+    {
+     "number": 40697,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/40697",
+     "isDraft": true,
+     "state": "OPEN",
+     "createdAt": "2026-10-08T15:05:41Z",
+     "updatedAt": "2026-10-09T12:54:06Z",
+     "headRefName": "node-5980-teams-publish-to-organisation",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "BerniWittmann"
+     },
+     "reviewDecision": "REVIEW_REQUIRED",
+     "mergeable": "MERGEABLE",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-08T15:12:54Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:12:55Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-09T12:52:43Z",
+         "statusCheckRollup": {
+          "state": "FAILURE"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "github-actions"
+        },
+        "createdAt": "2026-10-08T15:05:59Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-08T15:07:38Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-08T15:09:45Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-08T15:12:54Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-08T16:09:22Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-10-08T16:09:34Z"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-08T17:19:59Z"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-08T17:55:02Z"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-09T07:47:35Z"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-09T07:59:30Z"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:52:43Z"
+        }
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-09T12:53:00Z"
+       }
+      ]
+     }
+    },
+    {
+     "number": 40696,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/40696",
+     "isDraft": true,
+     "state": "OPEN",
+     "createdAt": "2026-10-08T15:05:15Z",
+     "updatedAt": "2026-10-09T13:02:45Z",
+     "headRefName": "node-5980-teams-setup-install-for-me",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "BerniWittmann"
+     },
+     "reviewDecision": "REVIEW_REQUIRED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-09T12:57:03Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:52Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T15:16:52Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T16:16:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T16:16:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T16:16:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T16:16:55Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T17:27:14Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T17:27:14Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T17:27:14Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T17:27:14Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T17:27:14Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-08T18:04:30Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-09T12:01:30Z",
+         "statusCheckRollup": {
+          "state": "FAILURE"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T14:21:12Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T14:21:13Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T14:21:14Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T14:21:16Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T14:21:19Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T14:21:20Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "github-actions"
+        },
+        "createdAt": "2026-10-08T15:05:28Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-10-08T15:05:29Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "createdAt": "2026-10-08T15:05:57Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-08T15:06:55Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-08T15:09:40Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-08T15:16:46Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-08T16:16:54Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-08T17:19:57Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-08T17:27:14Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T17:48:42Z"
+        }
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-08T17:54:59Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-08T18:04:30Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T07:51:43Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T07:57:30Z"
+        }
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-09T07:59:27Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T08:03:13Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:01:30Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T12:57:03Z",
+        "state": "COMMENTED"
+       }
+      ]
+     }
+    },
+    {
+     "number": 40339,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/40339",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-10-05T15:40:55Z",
+     "updatedAt": "2026-10-06T08:18:21Z",
+     "headRefName": "node-6114-ms-teams-show-upload-instructions-when-the-app-package-is",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "BerniWittmann"
+     },
+     "reviewDecision": "REVIEW_REQUIRED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-1"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-06T08:17:28Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-05T15:46:01Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-06T08:14:34Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-05T15:27:32Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-10-05T15:41:49Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-05T15:42:58Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-05T15:43:39Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-05T15:46:01Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-05T15:51:48Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-05T16:01:35Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-05T16:10:01Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-05T16:17:41Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-10-05T16:54:30Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-1"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-06T08:14:34Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-06T08:17:28Z",
+        "state": "COMMENTED"
+       }
+      ]
+     }
+    },
+    {
+     "number": 40322,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/40322",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-10-05T14:23:36Z",
+     "updatedAt": "2026-10-09T13:02:33Z",
+     "headRefName": "node-5998-ms-teams-use-icon-from-agent-in-manifest",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "BerniWittmann"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-2"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-07T16:19:16Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-05T14:33:57Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-05T14:33:57Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-10-07T16:05:28Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-10-07T16:05:58Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-10-07T16:07:52Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-07T16:07:56Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-10-07T16:15:06Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-08T07:40:26Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-05T14:22:57Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-05T14:23:10Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-10-05T14:24:22Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-05T14:25:46Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-10-05T14:30:41Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-05T14:33:57Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-05T14:38:04Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-05T14:41:13Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-10-05T15:52:37Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-2"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "github-actions"
+        },
+        "createdAt": "2026-10-05T16:00:57Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "user-2"
+        },
+        "submittedAt": "2026-10-07T13:11:19Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-07T16:02:00Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-07T16:02:05Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-07T16:07:20Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-07T16:07:56Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-07T16:16:02Z"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-10-07T16:16:43Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-2"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-07T16:19:16Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-08T07:40:26Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "user-2"
+        },
+        "createdAt": "2026-10-09T11:48:56Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "createdAt": "2026-10-09T13:01:17Z"
+       }
+      ]
+     }
+    },
+    {
+     "number": 5482,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n-docs/pull/5482",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-09-28T09:47:02Z",
+     "updatedAt": "2026-10-08T08:08:46Z",
+     "headRefName": "doc-2359-document-browser-use-for-ga",
+     "repository": {
+      "name": "n8n-docs",
+      "nameWithOwner": "n8n-io/n8n-docs"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "BerniWittmann"
+     },
+     "reviewDecision": "REVIEW_REQUIRED",
+     "mergeable": "MERGEABLE",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "Team",
+         "slug": "docs-admins"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-09-28T09:48:49Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": []
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-09-28T09:59:49Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T09:46:48Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "github-actions"
+        },
+        "createdAt": "2026-09-28T09:47:34Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-28T09:48:49Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T09:59:49Z"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-10-08T08:08:46Z",
+        "requestedReviewer": {
+         "__typename": "Team"
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "requested": {
+   "nodes": [
+    {
+     "number": 39679,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/39679",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-09-27T08:06:28Z",
+     "updatedAt": "2026-09-27T08:29:11Z",
+     "headRefName": "cat-bot/run-36304979416-1",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "Bot",
+      "login": "n8n-cat-bot"
+     },
+     "reviewDecision": "REVIEW_REQUIRED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-3"
+        }
+       },
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-09-27T08:20:22Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-27T08:09:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-27T08:09:49Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-27T08:20:22Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-09-27T08:17:06Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-27T08:05:33Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-09-27T08:08:42Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-27T08:09:49Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-27T08:17:06Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-27T08:20:22Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-09-27T08:29:01Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-3"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-09-27T08:29:10Z",
+        "requestedReviewer": {
+         "__typename": "Team"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-09-27T08:29:10Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "number": 39409,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/39409",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-09-23T13:55:26Z",
+     "updatedAt": "2026-10-09T10:02:10Z",
+     "headRefName": "node-5973-handle-inbound-media-handling",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-1"
+     },
+     "reviewDecision": "REVIEW_REQUIRED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-09T09:45:24Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-23T14:04:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-23T14:04:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-23T14:04:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-06T17:45:26Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-06T17:45:26Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-09T09:44:01Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-09-23T13:59:50Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-09-23T14:00:42Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-23T14:04:50Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "user-1"
+        },
+        "createdAt": "2026-09-28T14:06:07Z"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-06T17:10:25Z"
+        }
+       },
+       {
+        "__typename": "HeadRefForcePushedEvent",
+        "actor": {
+         "__typename": "User",
+         "login": "user-1"
+        },
+        "createdAt": "2026-10-06T17:11:53Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-10-06T17:12:08Z"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-06T17:41:51Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-06T17:45:26Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T09:25:16Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T09:44:01Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T09:45:24Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-10-09T09:54:35Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "github-actions"
+        },
+        "createdAt": "2026-10-09T10:02:10Z"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "reviewed": {
+   "nodes": [
+    {
+     "number": 39878,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/39878",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-09-29T11:58:11Z",
+     "updatedAt": "2026-10-09T12:57:14Z",
+     "headRefName": "node-6037",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-4"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "Team",
+         "slug": "migrations-review"
+        }
+       },
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-5"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-09T12:42:13Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "user-6"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-09-29T12:31:59Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-09-30T13:30:18Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:47Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:47Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:47Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:47Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:47Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:13:48Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:13Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:13Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:17:13Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:20:06Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-4"
+           },
+           "createdAt": "2026-09-29T13:27:13Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:23:24Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:23:24Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-29T12:23:24Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-4"
+           },
+           "createdAt": "2026-10-09T11:52:38Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:09Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-4"
+           },
+           "createdAt": "2026-10-09T11:57:25Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T10:59:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T11:51:50Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T12:37:57Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-10-09T12:37:57Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-09T12:40:22Z",
+         "statusCheckRollup": {
+          "state": "PENDING"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-29T12:42:19Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-29T12:58:35Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-29T13:19:57Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-29T13:27:10Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-29T13:30:50Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-29T13:34:16Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-29T13:36:14Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-29T13:42:14Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-29T14:03:29Z"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-09-29T15:06:51Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-09-29T15:06:58Z",
+        "requestedReviewer": {
+         "__typename": "Team"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-09-29T15:06:59Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-5"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "user-6"
+        },
+        "createdAt": "2026-09-29T22:45:12Z"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-30T08:05:04Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-30T09:04:48Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-30T09:15:25Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-30T09:16:59Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-30T09:22:40Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-30T10:41:49Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-30T10:51:59Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-09-30T10:52:27Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-09-30T13:30:18Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T10:21:26Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T10:50:50Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T10:59:09Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T11:15:45Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T11:29:51Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T11:31:00Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T11:47:53Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T11:51:50Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:01:08Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T12:03:14Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:14:19Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:17:42Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:18:54Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:31:57Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T12:37:57Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-09T12:40:22Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "user-4"
+        },
+        "createdAt": "2026-10-09T12:41:34Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-09T12:42:13Z",
+        "state": "COMMENTED"
+       }
+      ]
+     }
+    },
+    {
+     "number": 38043,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/38043",
+     "isDraft": true,
+     "state": "OPEN",
+     "createdAt": "2026-09-08T09:14:30Z",
+     "updatedAt": "2026-10-07T15:00:42Z",
+     "headRefName": "hackweek/n8nable-app-version",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-7"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "aikido-pr-checks"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-09-28T08:53:20Z"
+       },
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-10-07T14:57:20Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-09-08T10:49:18Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-09T14:44:44Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-09T14:44:44Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-09T14:44:44Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-09T14:44:44Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:14:15Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:28:03Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:28:03Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:28:03Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:59:31Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:59:31Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-11T15:59:31Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "aikido-pr-checks"
+           },
+           "createdAt": "2026-09-28T08:53:20Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:36Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:37Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:04:37Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T09:52:32Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-09-28T10:36:25Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-10-07T14:53:47Z",
+         "statusCheckRollup": {
+          "state": "FAILURE"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T14:11:09Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T14:23:41Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-09-11T14:24:44Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T14:28:57Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T14:33:02Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T14:41:08Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T15:03:40Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T15:14:15Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T15:21:56Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T15:28:01Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T15:28:03Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T15:31:47Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T15:53:52Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T15:59:31Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-11T18:08:27Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-11T18:19:32Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-14T09:39:51Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-14T11:25:56Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-14T22:35:18Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-14T23:20:50Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-14T23:27:34Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-15T10:12:33Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-15T10:12:50Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-15T11:18:07Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-15T11:23:12Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T08:37:43Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T08:52:15Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "aikido-pr-checks"
+        },
+        "submittedAt": "2026-09-28T08:53:20Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-28T09:04:34Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T09:24:37Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T09:25:04Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T09:26:22Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T09:47:59Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-28T09:52:31Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T10:21:20Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-28T10:23:15Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-28T10:33:30Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-09-28T10:36:25Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-10-07T14:53:47Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-10-07T14:57:20Z",
+        "state": "COMMENTED"
+       }
+      ]
+     }
+    },
+    {
+     "number": 588,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/api-service/pull/588",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-08-28T11:51:49Z",
+     "updatedAt": "2026-08-31T13:19:58Z",
+     "headRefName": "ops-247-limit-upload-size",
+     "repository": {
+      "name": "api-service",
+      "nameWithOwner": "n8n-io/api-service"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-8"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "CONFLICTING",
+     "reviewRequests": {
+      "nodes": [
+       {
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-9"
+        }
+       }
+      ]
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "User",
+         "login": "user-10"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-08-31T09:57:55Z"
+       },
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-08-28T12:06:03Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "user-11"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-08-31T13:19:57Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "APPROVED",
+        "submittedAt": "2026-08-28T13:45:34Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-28T12:06:03Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-28T12:06:03Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-28T12:06:04Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-28T13:28:16Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-10"
+           },
+           "createdAt": "2026-08-31T09:43:22Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-10"
+           },
+           "createdAt": "2026-08-31T09:56:43Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-11"
+           },
+           "createdAt": "2026-08-31T13:10:25Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-11"
+           },
+           "createdAt": "2026-08-31T13:10:57Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-11"
+           },
+           "createdAt": "2026-08-31T13:11:52Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-11"
+           },
+           "createdAt": "2026-08-31T13:16:15Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-11"
+           },
+           "createdAt": "2026-08-31T13:18:41Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-08-28T13:41:43Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-28T11:48:35Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "linear-code"
+        },
+        "createdAt": "2026-08-28T11:51:53Z"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-08-28T11:53:13Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "user-9"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-28T12:06:03Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-28T12:06:11Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-28T12:49:40Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-28T13:28:48Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-28T13:41:43Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-28T13:45:34Z",
+        "state": "APPROVED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "user-10"
+        },
+        "submittedAt": "2026-08-31T09:57:55Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "user-11"
+        },
+        "submittedAt": "2026-08-31T13:19:57Z",
+        "state": "CHANGES_REQUESTED"
+       }
+      ]
+     }
+    },
+    {
+     "number": 36487,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/36487",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-08-18T09:24:18Z",
+     "updatedAt": "2026-08-27T11:09:11Z",
+     "headRefName": "node-4288-linear-v2-overhaul",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-3"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-08-19T15:55:43Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-08-24T09:16:20Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:34Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T11:22:35Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T15:46:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T15:46:51Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T15:55:43Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-19T15:55:44Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-24T08:58:44Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-24T09:02:05Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-24T09:04:00Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-24T09:05:38Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-24T09:08:25Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-24T09:16:03Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-08-27T10:58:53Z",
+         "statusCheckRollup": {
+          "state": "FAILURE"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-16T11:01:57Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-16T11:10:29Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-17T10:48:10Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-19T12:38:04Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-19T12:43:12Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-19T12:47:04Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-19T16:39:34Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-19T16:57:45Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "github-actions"
+        },
+        "createdAt": "2026-08-18T09:24:44Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-08-18T09:25:02Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-08-18T09:27:46Z"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-18T09:54:11Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-18T14:51:34Z"
+        }
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-08-19T10:56:33Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-19T11:21:20Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-19T11:22:33Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-19T15:34:29Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-19T15:37:41Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-19T15:46:51Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-19T15:50:10Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-19T15:55:43Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-20T06:45:11Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-20T06:46:05Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-24T09:16:20Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-27T10:58:53Z"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "number": 36223,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/36223",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-08-13T13:42:12Z",
+     "updatedAt": "2026-09-28T15:51:54Z",
+     "headRefName": "fix/erpnext-node-create-update-properties-crash",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-12"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-08-13T13:48:29Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-09-01T15:27:23Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-09-01T15:18:20Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-09-01T15:19:57Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-13T13:21:59Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-13T13:48:29Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-13T13:55:40Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-08-13T14:00:20Z"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-08-17T07:32:24Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-09-01T15:19:57Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-09-01T15:27:23Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "codecov"
+        },
+        "createdAt": "2026-09-01T15:32:57Z"
+       }
+      ]
+     }
+    },
+    {
+     "number": 35140,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/35140",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-07-29T02:19:07Z",
+     "updatedAt": "2026-09-23T06:24:32Z",
+     "headRefName": "fix/notion-formula-filter-error-message",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-13"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-07-29T02:25:23Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-08-25T10:58:39Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-13"
+           },
+           "createdAt": "2026-08-24T21:12:33Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-13"
+           },
+           "createdAt": "2026-08-24T21:12:39Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-25T10:58:12Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-08-25T10:58:35Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-08-24T21:12:13Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-29T02:16:45Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-07-29T02:19:32Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "user-13"
+        },
+        "createdAt": "2026-07-29T02:22:06Z"
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-07-29T02:25:23Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-07-29T02:30:16Z"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-07-29T07:32:34Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-24T12:00:49Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-24T21:12:13Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "user-13"
+        },
+        "createdAt": "2026-08-24T21:16:55Z"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-08-24T21:18:58Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-25T10:58:39Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-09-07T12:41:25Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "User",
+         "login": "user-14"
+        },
+        "createdAt": "2026-09-15T09:05:46Z"
+       }
+      ]
+     }
+    },
+    {
+     "number": 35008,
+     "title": "Scrubbed title",
+     "url": "https://github.com/n8n-io/n8n/pull/35008",
+     "isDraft": false,
+     "state": "OPEN",
+     "createdAt": "2026-07-27T10:54:20Z",
+     "updatedAt": "2026-09-02T06:46:48Z",
+     "headRefName": "ghc-9097-google-api-credential-test-scopes",
+     "repository": {
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n"
+     },
+     "author": {
+      "__typename": "User",
+      "login": "user-15"
+     },
+     "reviewDecision": "CHANGES_REQUESTED",
+     "mergeable": "UNKNOWN",
+     "reviewRequests": {
+      "nodes": []
+     },
+     "latestReviews": {
+      "nodes": [
+       {
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "state": "COMMENTED",
+        "submittedAt": "2026-08-14T16:20:27Z"
+       },
+       {
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "state": "CHANGES_REQUESTED",
+        "submittedAt": "2026-09-02T06:46:48Z"
+       }
+      ]
+     },
+     "reviewThreads": {
+      "nodes": [
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-15"
+           },
+           "createdAt": "2026-08-14T16:14:43Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-15"
+           },
+           "createdAt": "2026-08-14T16:14:54Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-15"
+           },
+           "createdAt": "2026-08-14T16:15:10Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": true,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "Bot",
+            "login": "cubic-dev-ai"
+           },
+           "createdAt": "2026-08-14T16:20:27Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "user-15"
+           },
+           "createdAt": "2026-08-19T16:04:42Z"
+          }
+         ]
+        }
+       },
+       {
+        "isResolved": false,
+        "comments": {
+         "nodes": [
+          {
+           "author": {
+            "__typename": "User",
+            "login": "BerniWittmann"
+           },
+           "createdAt": "2026-09-02T06:45:25Z"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     "commits": {
+      "nodes": [
+       {
+        "commit": {
+         "committedDate": "2026-08-19T16:03:56Z",
+         "statusCheckRollup": {
+          "state": "SUCCESS"
+         }
+        }
+       }
+      ]
+     },
+     "timelineItems": {
+      "nodes": [
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-27T10:50:53Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-27T10:58:24Z"
+        }
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-07-27T11:00:27Z"
+        }
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-07-27T11:00:34Z"
+       },
+       {
+        "__typename": "IssueComment",
+        "author": {
+         "__typename": "Bot",
+         "login": "n8n-assistant"
+        },
+        "createdAt": "2026-07-27T11:00:34Z"
+       },
+       {
+        "__typename": "ReviewRequestedEvent",
+        "createdAt": "2026-08-01T13:26:05Z",
+        "requestedReviewer": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-14T10:06:57Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-14T16:14:14Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "Bot",
+         "login": "cubic-dev-ai"
+        },
+        "submittedAt": "2026-08-14T16:20:27Z",
+        "state": "COMMENTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-14T17:43:37Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-08-19T07:44:06Z",
+        "state": "CHANGES_REQUESTED"
+       },
+       {
+        "__typename": "PullRequestCommit",
+        "commit": {
+         "committedDate": "2026-08-19T16:03:56Z"
+        }
+       },
+       {
+        "__typename": "PullRequestReview",
+        "author": {
+         "__typename": "User",
+         "login": "BerniWittmann"
+        },
+        "submittedAt": "2026-09-02T06:46:48Z",
+        "state": "CHANGES_REQUESTED"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "pr0": {
+   "number": 36223,
+   "title": "Scrubbed title",
+   "url": "https://github.com/n8n-io/n8n/pull/36223",
+   "isDraft": false,
+   "state": "OPEN",
+   "createdAt": "2026-08-13T13:42:12Z",
+   "updatedAt": "2026-09-28T15:51:54Z",
+   "headRefName": "fix/erpnext-node-create-update-properties-crash",
+   "repository": {
+    "name": "n8n",
+    "nameWithOwner": "n8n-io/n8n"
+   },
+   "author": {
+    "__typename": "User",
+    "login": "user-12"
+   },
+   "reviewDecision": "CHANGES_REQUESTED",
+   "mergeable": "UNKNOWN",
+   "reviewRequests": {
+    "nodes": []
+   },
+   "latestReviews": {
+    "nodes": [
+     {
+      "author": {
+       "__typename": "Bot",
+       "login": "cubic-dev-ai"
+      },
+      "state": "COMMENTED",
+      "submittedAt": "2026-08-13T13:48:29Z"
+     },
+     {
+      "author": {
+       "__typename": "User",
+       "login": "BerniWittmann"
+      },
+      "state": "CHANGES_REQUESTED",
+      "submittedAt": "2026-09-01T15:27:23Z"
+     }
+    ]
+   },
+   "reviewThreads": {
+    "nodes": [
+     {
+      "isResolved": false,
+      "comments": {
+       "nodes": [
+        {
+         "author": {
+          "__typename": "User",
+          "login": "BerniWittmann"
+         },
+         "createdAt": "2026-09-01T15:18:20Z"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "commits": {
+    "nodes": [
+     {
+      "commit": {
+       "committedDate": "2026-09-01T15:19:57Z",
+       "statusCheckRollup": {
+        "state": "SUCCESS"
+       }
+      }
+     }
+    ]
+   },
+   "timelineItems": {
+    "nodes": [
+     {
+      "__typename": "PullRequestCommit",
+      "commit": {
+       "committedDate": "2026-08-13T13:21:59Z"
+      }
+     },
+     {
+      "__typename": "PullRequestReview",
+      "author": {
+       "__typename": "Bot",
+       "login": "cubic-dev-ai"
+      },
+      "submittedAt": "2026-08-13T13:48:29Z",
+      "state": "COMMENTED"
+     },
+     {
+      "__typename": "PullRequestCommit",
+      "commit": {
+       "committedDate": "2026-08-13T13:55:40Z"
+      }
+     },
+     {
+      "__typename": "IssueComment",
+      "author": {
+       "__typename": "Bot",
+       "login": "n8n-assistant"
+      },
+      "createdAt": "2026-08-13T14:00:20Z"
+     },
+     {
+      "__typename": "ReviewRequestedEvent",
+      "createdAt": "2026-08-17T07:32:24Z",
+      "requestedReviewer": {
+       "__typename": "User",
+       "login": "BerniWittmann"
+      }
+     },
+     {
+      "__typename": "PullRequestCommit",
+      "commit": {
+       "committedDate": "2026-09-01T15:19:57Z"
+      }
+     },
+     {
+      "__typename": "PullRequestReview",
+      "author": {
+       "__typename": "User",
+       "login": "BerniWittmann"
+      },
+      "submittedAt": "2026-09-01T15:27:23Z",
+      "state": "CHANGES_REQUESTED"
+     },
+     {
+      "__typename": "IssueComment",
+      "author": {
+       "__typename": "Bot",
+       "login": "codecov"
+      },
+      "createdAt": "2026-09-01T15:32:57Z"
+     }
+    ]
+   }
+  }
+ }
+}

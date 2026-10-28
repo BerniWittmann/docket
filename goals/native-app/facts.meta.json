@@ -1,0 +1,345 @@
+[
+  {
+    "id": "fact-1",
+    "text": "Docket is a native SwiftUI macOS app (macOS 15+) in ~/DEV/Docket, built with Swift Package Manager and bundled by a script into an ad-hoc signed Docket.app.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-2",
+    "text": "The main window has a Dock icon and a three-pane layout: a sidebar of groups with counts, the item list of the selected group, and a detail pane for the selected item.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-3",
+    "text": "The sidebar groups are, in order: Agents need me, Reviews, My PRs, Tickets, Waiting, Snoozed. Every group shows its item count.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-4",
+    "text": "Inside a group, items are ranked by urgency first and then by how long they have waited, oldest first.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-5",
+    "text": "Keyboard: \u2191/\u2193 moves through items, \u23181\u2013\u23186 switches groups, \u21a9 runs Start work, \u2318O opens the item in the browser, S snoozes, D marks done, M marks not mine, \u2318C copies the link, \u2318R refreshes.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-6",
+    "text": "The detail pane shows the item's ticket and PRs with their status, the latest relevant activity with author and time, and the agent status of a linked workspace (state, last message, since when).",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-7",
+    "text": "GitHub data comes from the local gh CLI login (`gh api graphql`). It covers private repos the user can access. Docket never stores a GitHub token.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-8",
+    "text": "The GitHub repos and orgs to watch are set in Settings. The default is n8n-io/*.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-9",
+    "text": "GitHub is polled every 2 minutes, and Refresh (\u2318R) polls immediately.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-10",
+    "text": "A PR where my review is requested and I have not reviewed yet appears in Reviews as \"Review #N\".",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-11",
+    "text": "A PR I already reviewed, where the author pushed or replied afterwards, appears in Reviews as \"Re-review #N\".",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-12",
+    "text": "My PR appears in My PRs as \"Address feedback\" when a human or a review bot requested changes, commented after my last activity, or left unresolved threads.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-13",
+    "text": "My PR whose change-requesting reviewers have all been asked to re-review appears in Waiting (\"re-review requested from @x\"), not in My PRs.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-14",
+    "text": "Comments from noise bots (default: cla-bot, codecov, github-actions, dependabot) never affect status. Review bots (default: cubic-dev-ai, aikido-pr-checks) affect status. Both lists are editable in Settings.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-15",
+    "text": "My PR with failing CI or a merge conflict appears in My PRs as \"Fix CI\" or \"Resolve conflict\".",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-16",
+    "text": "My PR that is approved and mergeable appears in My PRs as \"Ready to merge\".",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-17",
+    "text": "My PR that is waiting for review with nothing for me to do appears in Waiting.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-18",
+    "text": "Linear connects with a personal API key that is validated on entry (\"Connected as <name>\") and stored in the macOS Keychain.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-19",
+    "text": "My assigned Linear tickets in Todo, In Progress or In Review appear in Tickets. Todo ranks last. Backlog, Done and Canceled tickets are hidden.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-20",
+    "text": "A ticket and the PRs attached to it in Linear appear as one item, placed in the group of its most urgent part.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-21",
+    "text": "A ticket without a PR shows \"Start NODE-X\" (Todo) or \"Continue NODE-X\" (In Progress).",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-22",
+    "text": "A ticket whose PR merged while the ticket is still open shows \"Close NODE-X\" with an Open in Linear action. Docket does not change Linear, because merged PRs normally close their tickets automatically.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-23",
+    "text": "Agent states come through a Harness protocol: list workspaces with agent states, find the workspace for a PR, ticket or branch, start work, and open a workspace. v1 ships only an Orca adapter based on the orca CLI.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-24",
+    "text": "Docket reads Orca workspaces about every 10 seconds. A workspace whose agent is blocked, waiting or awaiting a decision puts its item in Agents need me.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-25",
+    "text": "A workspace whose agent finished and whose result is unread puts its item in Agents need me as \"Check agent result\".",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-26",
+    "text": "An Orca workspace that matches no ticket or PR but has a non-idle agent or an unread result still appears in Agents need me, labelled with its repo and branch.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-27",
+    "text": "Start work reuses the Orca worktree linked to the item's PR, ticket or branch. If none exists, it creates one: my PR on its branch, someone else's PR as a review worktree, a ticket on a new branch named after it.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-28",
+    "text": "Start work starts the configured agent (default claude) with the prompt for the item's kind. Defaults: review \u2192 /pr-review {url}; feedback, CI or conflict \u2192 /pr-review-feedback {url}; start ticket \u2192 /fix-ticket {ticket}.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-29",
+    "text": "Continue ticket opens the ticket's existing worktree. If none exists, it starts one with the editable default prompt \"Continue {ticket}: check the branch and the ticket, then propose the next step\".",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-30",
+    "text": "Every prompt and the agent for each kind of work are editable in Settings. Placeholders such as {url}, {ticket}, {number} and {repo} are filled in.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-31",
+    "text": "Each kind of work has an automation setting: Manual (default) or Prepare. Prepare creates the worktree for new items without starting an agent, only inside work hours.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-32",
+    "text": "Docket never writes to GitHub or Linear. It only reads them. Actions happen locally or in the harness.",
+    "comment": "Remove that Move to Done in linear action. Tickets assigned to PRs should be auto closed anyhow. so that action is not necessary",
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-33",
+    "text": "Snooze offers 1 hour, tomorrow at work start, next week, or a picked date. A snoozed item shows in Snoozed and returns early when new activity arrives.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-34",
+    "text": "Done hides an item until new activity arrives. Not mine hides it permanently.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-35",
+    "text": "Snoozes, done and not-mine marks, and settings persist locally in Application Support and survive an app restart.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-36",
+    "text": "Docket sends native macOS notifications, including while it is the frontmost app.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-37",
+    "text": "Notifications fire only inside work hours (default Mon\u2013Fri 8:00\u201318:00, editable).",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-38",
+    "text": "Notification toggles: default on for agent needs me, agent result unread, new review request, and human feedback on my PR; default off for CI failed and ready to merge.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-39",
+    "text": "Review-bot activity changes status and also sends a notification.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-40",
+    "text": "Each event notifies at most once. Snoozed, done and not-mine items stay silent.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-41",
+    "text": "Clicking a notification brings Docket to the front with that item selected. Agent notifications offer an Open in Orca action.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-42",
+    "text": "First run walks through GitHub (checks gh auth status, shows the login command if needed), Linear (API key), Orca (finds the CLI or accepts a path) and notification permission. Every step can be skipped, and the app works with whatever is connected.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-43",
+    "text": "A source that fails (gh logged out, invalid Linear key, Orca not running) shows a visible error state for that source, and the other sources keep working.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-44",
+    "text": "Launch at login is a toggle in Settings.",
+    "comment": null,
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-45",
+    "text": "The ranking, matching and bot rules have `swift test` coverage driven by recorded JSON fixtures from GitHub, Linear and Orca.",
+    "comment": null,
+    "recommendedAutomatedVerification": true,
+    "automatedVerification": true
+  },
+  {
+    "id": "fact-46",
+    "text": "A theme switch in Settings and the View menu toggles between two themes: Nord (dark, based on nordtheme.com Polar Night, Snow Storm and Frost colours) and n8n (n8n brand Light mode). The choice persists across restarts.",
+    "comment": "Added from chat on 2026-10-09 (theme request).",
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-47",
+    "text": "The n8n theme uses only n8n brand tokens: colours from the brand palette (for example #FAFAFA background, #191919 text and #FF91AC accent), spacing in multiples of 8 (with 4 and 12 inside small elements), radius tokens, n8n Baumer for text and n8n Baumer Mono in ALL CAPS for capsule labels.",
+    "comment": "Added from chat on 2026-10-09 (theme request).",
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-48",
+    "text": "The Docket logo (a vertical connector line with three dots and three decreasing pills) appears in the sidebar header and is drawn in theme colours: Nord uses #88C0D0, #D8DEE9 and #4C566A; n8n uses #FF91AC, #191919 and #BFBFBF.",
+    "comment": "Added from chat on 2026-10-09 (theme request).",
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  },
+  {
+    "id": "fact-49",
+    "text": "Status chips and capsules use theme tokens. In the n8n theme, items that need me use deep pink #87003C text on #FFE8EC. In Nord they use Aurora red #BF616A.",
+    "comment": "Added from chat on 2026-10-09 (theme request).",
+    "recommendedAutomatedVerification": false,
+    "automatedVerification": false
+  }
+]

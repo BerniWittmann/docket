@@ -1,0 +1,84 @@
+{
+ "id": "100324da-fc7a-452a-a53c-c88ebcc8f3e5",
+ "ok": true,
+ "result": {
+  "repos": [
+   {
+    "id": "1551d537-6de8-460a-a7c1-4468342d6b07",
+    "path": "/Users/me/DEV/n8n",
+    "displayName": "n8n",
+    "kind": "git",
+    "gitRemoteIdentity": {
+     "canonicalKey": "github.com/n8n-io/n8n",
+     "remoteName": "origin",
+     "remoteUrl": "git@github.com:n8n-io/n8n.git"
+    }
+   },
+   {
+    "id": "f55bb735-93a5-4947-ab57-597d4640595b",
+    "path": "/Users/me/DEV/internal-tools",
+    "displayName": "internal-tools",
+    "kind": "git",
+    "gitRemoteIdentity": {
+     "canonicalKey": "github.com/n8n-io/internal-tools",
+     "remoteName": "origin",
+     "remoteUrl": "https://github.com/n8n-io/internal-tools"
+    }
+   },
+   {
+    "id": "84b5f0ef-ce7e-4d5a-ab81-230527fa0c0a",
+    "path": "/Users/me/DEV/tracer",
+    "displayName": "tracer",
+    "kind": "git",
+    "gitRemoteIdentity": {
+     "canonicalKey": "github.com/n8n-io/tracer",
+     "remoteName": "origin",
+     "remoteUrl": "https://github.com/n8n-io/tracer"
+    }
+   },
+   {
+    "id": "21405b94-a927-4b01-88f2-c0a42f3eaac6",
+    "path": "/Users/me/DEV/personal-page",
+    "displayName": "personal-page",
+    "kind": "git",
+    "gitRemoteIdentity": {
+     "canonicalKey": "github.com/BerniWittmann/personal-page",
+     "remoteName": "origin",
+     "remoteUrl": "git@github.com:BerniWittmann/personal-page.git"
+    }
+   },
+   {
+    "id": "0a2cdf06-462b-4ff8-beb5-00d45441b874",
+    "path": "/Users/me/DEV/api-service",
+    "displayName": "api-service",
+    "kind": "git",
+    "gitRemoteIdentity": {
+     "canonicalKey": "github.com/n8n-io/api-service",
+     "remoteName": "origin",
+     "remoteUrl": "git@github.com:n8n-io/api-service.git"
+    }
+   },
+   {
+    "id": "808aa04b-2fbb-4a1d-9d67-b31be9cc981f",
+    "path": "/Users/me/DEV/n8n-docs",
+    "displayName": "n8n-docs",
+    "kind": "git",
+    "gitRemoteIdentity": {
+     "canonicalKey": "github.com/n8n-io/n8n-docs",
+     "remoteName": "origin",
+     "remoteUrl": "https://github.com/n8n-io/n8n-docs.git"
+    }
+   },
+   {
+    "id": "037ba482-6416-48de-a863-dfdcfefb03b8",
+    "path": "/Users/me/DEV/Docket",
+    "displayName": "Docket",
+    "kind": "git",
+    "gitRemoteIdentity": null
+   }
+  ]
+ },
+ "_meta": {
+  "runtimeId": "135fea2e-0abe-446d-8b29-1ce18b6b29d1"
+ }
+}

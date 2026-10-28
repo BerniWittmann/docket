@@ -1,0 +1,118 @@
+{
+ "data": {
+  "viewer": {
+   "name": "Viewer",
+   "assignedIssues": {
+    "nodes": [
+     {
+      "identifier": "NODE-6114",
+      "title": "Scrubbed title",
+      "url": "https://linear.app/n8n/issue/NODE-6114/ms-teams-show-upload-instructions-when-the-app-package-is-downloaded",
+      "branchName": "node-6114-ms-teams-show-upload-instructions-when-the-app-package-is",
+      "updatedAt": "2026-10-05T16:54:28.746Z",
+      "state": {
+       "name": "Review",
+       "type": "started"
+      },
+      "attachments": {
+       "nodes": [
+        {
+         "url": "https://github.com/n8n-io/n8n/pull/40339"
+        }
+       ]
+      }
+     },
+     {
+      "identifier": "DOC-2359",
+      "title": "Scrubbed title",
+      "url": "https://linear.app/n8n/issue/DOC-2359/document-browser-use-for-ga",
+      "branchName": "doc-2359-document-browser-use-for-ga",
+      "updatedAt": "2026-09-28T12:48:09.887Z",
+      "state": {
+       "name": "Review",
+       "type": "started"
+      },
+      "attachments": {
+       "nodes": [
+        {
+         "url": "https://github.com/n8n-io/n8n-docs/pull/5482"
+        }
+       ]
+      }
+     },
+     {
+      "identifier": "NODE-5998",
+      "title": "Scrubbed title",
+      "url": "https://linear.app/n8n/issue/NODE-5998/ms-teams-use-icon-from-agent-in-manifest",
+      "branchName": "node-5998-ms-teams-use-icon-from-agent-in-manifest",
+      "updatedAt": "2026-10-05T16:01:02.212Z",
+      "state": {
+       "name": "Review",
+       "type": "started"
+      },
+      "attachments": {
+       "nodes": [
+        {
+         "url": "https://github.com/n8n-io/n8n/pull/40322"
+        }
+       ]
+      }
+     },
+     {
+      "identifier": "NODE-5980",
+      "title": "Scrubbed title",
+      "url": "https://linear.app/n8n/issue/NODE-5980/ms-teams-provision-the-entra-app-and-teams-app-through-graph",
+      "branchName": "node-5980-ms-teams-provision-the-entra-app-and-teams-app-through-graph",
+      "updatedAt": "2026-10-08T15:05:22.154Z",
+      "state": {
+       "name": "In Progress",
+       "type": "started"
+      },
+      "attachments": {
+       "nodes": [
+        {
+         "url": "https://github.com/n8n-io/n8n/pull/40697"
+        },
+        {
+         "url": "https://github.com/n8n-io/n8n/pull/40696"
+        }
+       ]
+      }
+     },
+     {
+      "identifier": "NODE-5750",
+      "title": "Scrubbed title",
+      "url": "https://linear.app/n8n/issue/NODE-5750/community-issue-erpnext-node-createupdate-throw-a-raw-typeerror",
+      "branchName": "node-5750-community-issue-erpnext-node-createupdate-throw-a-raw",
+      "updatedAt": "2026-09-14T13:22:57.323Z",
+      "state": {
+       "name": "Waiting for input",
+       "type": "started"
+      },
+      "attachments": {
+       "nodes": [
+        {
+         "url": "https://github.com/n8n-io/n8n/pull/36223"
+        }
+       ]
+      }
+     },
+     {
+      "identifier": "DOC-2049",
+      "title": "Scrubbed title",
+      "url": "https://linear.app/n8n/issue/DOC-2049/docs-for-community-issue-mcp-webhook-queue-mode-sessionmanager-retains",
+      "branchName": "doc-2049-docs-for-community-issue-mcp-webhook-queue-mode",
+      "updatedAt": "2026-07-07T08:26:47.359Z",
+      "state": {
+       "name": "Next",
+       "type": "unstarted"
+      },
+      "attachments": {
+       "nodes": []
+      }
+     }
+    ]
+   }
+  }
+ }
+}

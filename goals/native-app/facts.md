@@ -1,0 +1,51 @@
+# Facts
+
+- Docket is a native SwiftUI macOS app (macOS 15+) in ~/DEV/Docket, built with Swift Package Manager and bundled by a script into an ad-hoc signed Docket.app.
+- The main window has a Dock icon and a three-pane layout: a sidebar of groups with counts, the item list of the selected group, and a detail pane for the selected item.
+- The sidebar groups are, in order: Agents need me, Reviews, My PRs, Tickets, Waiting, Snoozed. Every group shows its item count.
+- Inside a group, items are ranked by urgency first and then by how long they have waited, oldest first.
+- Keyboard: ↑/↓ moves through items, ⌘1–⌘6 switches groups, ↩ runs Start work, ⌘O opens the item in the browser, S snoozes, D marks done, M marks not mine, ⌘C copies the link, ⌘R refreshes.
+- The detail pane shows the item's ticket and PRs with their status, the latest relevant activity with author and time, and the agent status of a linked workspace (state, last message, since when).
+- GitHub data comes from the local gh CLI login (`gh api graphql`). It covers private repos the user can access. Docket never stores a GitHub token.
+- The GitHub repos and orgs to watch are set in Settings. The default is n8n-io/*.
+- GitHub is polled every 2 minutes, and Refresh (⌘R) polls immediately.
+- A PR where my review is requested and I have not reviewed yet appears in Reviews as "Review #N".
+- A PR I already reviewed, where the author pushed or replied afterwards, appears in Reviews as "Re-review #N".
+- My PR appears in My PRs as "Address feedback" when a human or a review bot requested changes, commented after my last activity, or left unresolved threads.
+- My PR whose change-requesting reviewers have all been asked to re-review appears in Waiting ("re-review requested from @x"), not in My PRs.
+- Comments from noise bots (default: cla-bot, codecov, github-actions, dependabot) never affect status. Review bots (default: cubic-dev-ai, aikido-pr-checks) affect status. Both lists are editable in Settings.
+- My PR with failing CI or a merge conflict appears in My PRs as "Fix CI" or "Resolve conflict".
+- My PR that is approved and mergeable appears in My PRs as "Ready to merge".
+- My PR that is waiting for review with nothing for me to do appears in Waiting.
+- Linear connects with a personal API key that is validated on entry ("Connected as <name>") and stored in the macOS Keychain.
+- My assigned Linear tickets in Todo, In Progress or In Review appear in Tickets. Todo ranks last. Backlog, Done and Canceled tickets are hidden.
+- A ticket and the PRs attached to it in Linear appear as one item, placed in the group of its most urgent part.
+- A ticket without a PR shows "Start NODE-X" (Todo) or "Continue NODE-X" (In Progress).
+- A ticket whose PR merged while the ticket is still open shows "Close NODE-X" with an Open in Linear action. Docket does not change Linear, because merged PRs normally close their tickets automatically.
+- Agent states come through a Harness protocol: list workspaces with agent states, find the workspace for a PR, ticket or branch, start work, and open a workspace. v1 ships only an Orca adapter based on the orca CLI.
+- Docket reads Orca workspaces about every 10 seconds. A workspace whose agent is blocked, waiting or awaiting a decision puts its item in Agents need me.
+- A workspace whose agent finished and whose result is unread puts its item in Agents need me as "Check agent result".
+- An Orca workspace that matches no ticket or PR but has a non-idle agent or an unread result still appears in Agents need me, labelled with its repo and branch.
+- Start work reuses the Orca worktree linked to the item's PR, ticket or branch. If none exists, it creates one: my PR on its branch, someone else's PR as a review worktree, a ticket on a new branch named after it.
+- Start work starts the configured agent (default claude) with the prompt for the item's kind. Defaults: review → /pr-review {url}; feedback, CI or conflict → /pr-review-feedback {url}; start ticket → /fix-ticket {ticket}.
+- Continue ticket opens the ticket's existing worktree. If none exists, it starts one with the editable default prompt "Continue {ticket}: check the branch and the ticket, then propose the next step".
+- Every prompt and the agent for each kind of work are editable in Settings. Placeholders such as {url}, {ticket}, {number} and {repo} are filled in.
+- Each kind of work has an automation setting: Manual (default) or Prepare. Prepare creates the worktree for new items without starting an agent, only inside work hours.
+- Docket never writes to GitHub or Linear. It only reads them. Actions happen locally or in the harness.
+- Snooze offers 1 hour, tomorrow at work start, next week, or a picked date. A snoozed item shows in Snoozed and returns early when new activity arrives.
+- Done hides an item until new activity arrives. Not mine hides it permanently.
+- Snoozes, done and not-mine marks, and settings persist locally in Application Support and survive an app restart.
+- Docket sends native macOS notifications, including while it is the frontmost app.
+- Notifications fire only inside work hours (default Mon–Fri 8:00–18:00, editable).
+- Notification toggles: default on for agent needs me, agent result unread, new review request, and human feedback on my PR; default off for CI failed and ready to merge.
+- Review-bot activity changes status and also sends a notification.
+- Each event notifies at most once. Snoozed, done and not-mine items stay silent.
+- Clicking a notification brings Docket to the front with that item selected. Agent notifications offer an Open in Orca action.
+- First run walks through GitHub (checks gh auth status, shows the login command if needed), Linear (API key), Orca (finds the CLI or accepts a path) and notification permission. Every step can be skipped, and the app works with whatever is connected.
+- A source that fails (gh logged out, invalid Linear key, Orca not running) shows a visible error state for that source, and the other sources keep working.
+- Launch at login is a toggle in Settings.
+- The ranking, matching and bot rules have `swift test` coverage driven by recorded JSON fixtures from GitHub, Linear and Orca.
+- A theme switch in Settings and the View menu toggles between two themes: Nord (dark, based on nordtheme.com Polar Night, Snow Storm and Frost colours) and n8n (n8n brand Light mode). The choice persists across restarts.
+- The n8n theme uses only n8n brand tokens: colours from the brand palette (for example #FAFAFA background, #191919 text and #FF91AC accent), spacing in multiples of 8 (with 4 and 12 inside small elements), radius tokens, n8n Baumer for text and n8n Baumer Mono in ALL CAPS for capsule labels, falling back to the system font and the system monospaced font when the Baumer fonts are not installed.
+- The Docket logo (a vertical connector line with three dots and three decreasing pills) appears in the sidebar header and is drawn in theme colours: Nord uses #88C0D0, #D8DEE9 and #4C566A; n8n uses #FF91AC, #191919 and #BFBFBF.
+- Status chips and capsules use theme tokens. In the n8n theme, items that need me use deep pink #87003C text on #FFE8EC. In Nord they use Aurora red #BF616A.
