@@ -34,7 +34,10 @@ public enum Merge {
 
         for ticket in input.tickets where ticket.isOpen {
             let urls = Set(ticket.attachmentURLs.map(normalize))
-            let prs = input.pullRequests.filter { urls.contains(normalize($0.url)) || $0.ticketID == ticket.identifier }
+            let attached = input.pullRequests.filter { urls.contains(normalize($0.url)) || $0.ticketID == ticket.identifier }
+            let prs = attached.filter { !($0.state == .open && claimed.contains($0.id)) }
+            // The ticket's open PR already shows under another ticket it fixes.
+            if prs.count < attached.count && !prs.contains(where: { $0.state == .open }) { continue }
             claimed.formUnion(prs.map(\.id))
             drafts.append(Draft(id: "linear:\(ticket.identifier)", ticket: ticket, contextTicket: nil, prs: prs))
         }

@@ -37,6 +37,17 @@ struct MergeTests {
         #expect(item("linear:NODE-5998", in: all)?.need.headline == "Re-review requested from @user-2")
     }
 
+    @Test("an open PR that fixes several tickets shows once, under the first ticket")
+    func sharedPR() {
+        let pr = Fixtures.pr(40696)
+        var first = Fixtures.ticket("NODE-5980"), second = Fixtures.ticket("DOC-2049")
+        first.attachmentURLs = [pr.url]
+        second.attachmentURLs = [pr.url]
+        let all = items(prs: [pr], tickets: [first, second], workspaces: [])
+        #expect(all.filter { $0.pullRequests.contains { $0.id == pr.id } }.map(\.id) == ["linear:NODE-5980"])
+        #expect(item("linear:DOC-2049", in: all) == nil)
+    }
+
     @Test("fact 21: a ticket without a PR shows Start (Todo) or Continue (started)")
     func startContinue() {
         #expect(item("linear:DOC-2049", in: items())?.need.headline == "Start DOC-2049")
